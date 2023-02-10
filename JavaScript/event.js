@@ -65,3 +65,13 @@ document.getElementById('make-brown').addEventListener('click',function(){
 document.getElementById('make-khaki').addEventListener('click',function(){
     document.body.style.backgroundColor = 'khaki';
 })
+
+
+
+document.getElementById('submit-comment').addEventListener('click',function(){
+    const textArea = document.getElementById('text-area');
+    const inputText =textArea.value ;
+    const yourComment = document.getElementById('your-comment');
+    yourComment.innerText = inputText;
+    textArea.value = '';
+})
