@@ -38,3 +38,30 @@ orangeButton.onclick = function makeOrange (){
 
     document.body.style.backgroundColor = 'orange';
 }
+
+
+// option 4
+
+document.getElementById('make-gray').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'gray';
+})
+
+
+document.getElementById('make-silver').addEventListener('click',function(){
+
+    document.body.style.backgroundColor = 'silver';
+})
+
+
+
+document.getElementById('make-brown').addEventListener('click',function(){
+
+
+    document.body.style.backgroundColor = 'brown';
+})
+
+
+
+document.getElementById('make-khaki').addEventListener('click',function(){
+    document.body.style.backgroundColor = 'khaki';
+})
