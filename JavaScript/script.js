@@ -28,3 +28,18 @@ for(const lists of listClass){
 
     
 }
+
+
+// comment event 
+
+
+document.getElementById('comment-btn').addEventListener('click',function(){
+
+    const commentArea = document.getElementById('comment-area');
+    const commentText = commentArea.value;
+    const commentContainer = document.getElementById('comment-container');
+    const newComment = document.createElement('p');
+    commentContainer.appendChild(newComment);
+    newComment.innerText = commentText;
+    commentArea.value = "";
+})
